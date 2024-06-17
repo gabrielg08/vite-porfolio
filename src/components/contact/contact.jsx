@@ -17,21 +17,19 @@ const Contact = () => {
                         <div className="contact__form-div">
                             <input type="text" className="contact__form-input" placeholder="Insert your name" />
                         </div>
-
                         <div className="contact__form-div">
                             <input type="email" className="contact__form-input" placeholder="Insert your email" />
                         </div>
+                    </div> 
 
-                        <div className="contact__form-div">
-                            <input type="text" className="contact__form-input" placeholder="Insert you subject" />
-                        </div>
-
-
-                        <div className="contact__form-div">
-                            <textarea name="" id="" cols="30" rows="10" className="contact__form-input" placeholder="Write your message"></textarea>
-                        </div>
-                        <button className="btn">Send Message</button>
+                    <div className="contact__form-div">
+                            <input type="text" className="contact__form-input" placeholder="Insert your subject" />
                     </div>
+                    <div className="contact__form-div contact__form-area">
+                           <textarea name="" id="" cols={30} rows={10} className="contact__form-input" placeholder="Write your message..."></textarea>
+                    </div>
+                    <buttton className="btn">Send Message</buttton>
+
                 </form>
             </div>
         </section>

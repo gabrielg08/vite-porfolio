@@ -98,3 +98,21 @@
 .about__title {
     font-size: 1.87rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .about__container {
+        grid-template-columns: 3fr 9fr;
+        column-gap: 1rem;
+    }
+    .about__data {
+        padding: 1rem;
+        background-color: var(--container-color);
+        box-shadow: var(--shadow);
+        border-radius: var(--border-radius);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.8rem;
+        align-items: flex-start;
+        position: relative;
+    }
+}
